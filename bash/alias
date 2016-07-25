@@ -1,0 +1,28 @@
+# ALIAS
+
+alias l='ls -la'
+
+take(){
+	mkdir $1
+	cd $1
+}
+
+alias osu="open -a Sublime\ Text"
+alias prof="osu ~/.bash_profile"
+alias reprof=". ~/.bash_profile"
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias pp="cd ~/Documents/portfolioprojects"
+
+ # Git
+  alias gcl="git clone"
+  alias ga="git add"
+  alias gs="git status"
+  alias gl="git pull"
+  alias gp="git push"
+  alias gd="git diff | mate"
+  alias gc="git commit -m"
+  alias gca="git commit -v -a"
+  alias gb="git branch"
+  alias gba="git branch -a"
+  alias gcam="git commit -am"
+  alias gbb="git branch -b"
